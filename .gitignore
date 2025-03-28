@@ -1,0 +1,15 @@
+# UI layout and open tabs (machine-specific)
+.obsidian/workspace.json
+
+# Temporary data
+.obsidian/cache/
+
+# Installed plugins (better to reinstall per device)
+.obsidian/plugins/
+
+# Installed themes (also better per device)
+.obsidian/themes/
+
+# OS specific files
+.DS_Store
+thumbs.db
