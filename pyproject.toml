@@ -1,0 +1,9 @@
+[project]
+name = "second-brain"
+version = "0.1.0"
+description = "Second brain / knowledge graph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-publisher>=1.4.6",
+]

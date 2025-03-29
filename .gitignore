@@ -1,3 +1,34 @@
+# Cache & temp
+__pycache__
+.pub_blog_temp
+.pub_min_cache
+.ruff_cache
+.pytest_cache
+.DS_Store
+thumbs.db
+
+# Coverage
+.coverage
+coverage.json
+htmlcov
+
+# Logs
+*_mkdocs_build.log
+*_mkdocs_debug.zip
+
+# Other
+.python-version
+.env
+.idea
+.venv
+dist
+site
+
+node_modules
+sandbox*
+docs_template
+
+# Obsidian
 # UI layout and open tabs (machine-specific)
 */.obsidian/workspace.json
 
@@ -9,7 +40,3 @@
 
 # Installed themes (also better per device)
 */.obsidian/themes/
-
-# OS specific files
-.DS_Store
-thumbs.db
