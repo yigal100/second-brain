@@ -6,7 +6,6 @@
   "calendar",
   "obsidian-markmind",
   "obsidian-focus-mode",
-  "cmenu-plugin",
   "obsidian-plantuml",
   "templater-obsidian",
   "obsidian-icon-folder",
@@ -24,5 +23,6 @@
   "obsidian-projects",
   "obsidian-latex-suite",
   "obsidian-rtl",
-  "webpage-html-export"
+  "webpage-html-export",
+  "obsidian-pandoc"
 ]
