@@ -1,0 +1,5 @@
+plugins:
+  - pub-meta
+  - pub-blog
+  - pub-obsidian
+  
