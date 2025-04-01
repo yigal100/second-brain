@@ -37,7 +37,7 @@ jobs:
       - name: Build site
         run: |
           uv sync
-          uv run mkdocs build
+          uv run mkdocs build -c -s -q 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
