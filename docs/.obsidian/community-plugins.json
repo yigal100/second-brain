@@ -24,5 +24,8 @@
   "obsidian-latex-suite",
   "obsidian-rtl",
   "webpage-html-export",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "tabs",
+  "nav-weight",
+  "vertical-tabs"
 ]
