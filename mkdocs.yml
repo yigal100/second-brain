@@ -1,5 +1,202 @@
+site_name: "Iggy's second brain"
+site_url: https://yigal100.github.io/second-brain/
+site_author: Yigal "Iggy" Chripun
+site_description: Second Brain / Knowledge Graph
+copyright: "&copy; Copyright Yigal Chripun 2025."
+repo_name: yigal100/second-brain
+repo_url: https://github.com/yigal100/second-brain/
+# edit_uri: https://github.com/yigal100/second-brain/edit/master/docs/
+
+docs_dir: docs
+site_dir: site
+
+use_directory_urls: true
+strict: true
+
+dev_addr: 127.0.0.1:8666
+
+extra:
+  # homepage: https://yigal100.github.io/second-brain/
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yigal100
+  status:
+    draftish: Still draftish
+
+extra_css:
+  - assets/stylesheets/publisher.css
+  - assets/stylesheets/interactive_graph.css
+  - assets/stylesheets/obsidian_tags.css
+
+extra_javascript:
+  # MathJax
+  - assets/javascript/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # Icons hack
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
+  # interactive graph
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascript/interactive_graph.js
+  # tabs
+  - assets/javascript/obsidian_tags.js
+
+watch:
+  - overrides
+
+validation:
+  omitted_files: warn
+  not_found: warn
+  absolute_links: warn
+  unrecognized_links: ignore
+  anchors: warn
+
+theme:
+  name: material
+  language: en
+  # font:
+  #   code: Lato
+  custom_dir: overrides
+  icon:
+    logo: simple/obsidian
+  # logo: publisher_logo.png
+  # favicon: publisher_icon.png
+
+  palette:
+    # Palette toggle for auto mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      # primary: orange
+      # accent: orange
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      # primary: orange
+      # accent: orange
+
+  features:
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.path
+    # - navigation.footer  # Prev/Next page
+    - navigation.tracking # Anchor tracking
+    - navigation.top # Back to top
+    - navigation.sections # Useful for an overview
+    - navigation.indexes # Needed for an overview
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - sane_lists
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      auto_title: false
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.saneheaders
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 plugins:
-  - pub-meta
-  - pub-blog
-  - pub-obsidian
-  
+  # - pub-debugger:
+  #     console_log:
+  #       show_code_link: true
+  #       enabled: true
+  #       log_level: DEBUG
+  #       filter_logger_names:
+  #         - mkdocs.plugins
+  #         - mkdocs.structure.files
+  #         - mkdocs.structure.pages
+  #         - mkdocs.plugins.publisher.meta.plugin
+  #         - mkdocs.plugins.publisher.blog.creators
+  #         - mkdocs.plugins.publisher.blog.modifiers
+  #         - mkdocs.plugins.publisher.blog.parsers
+  #         - mkdocs.plugins.publisher.debug.plugin
+  #         - mkdocs.plugins.publisher.minifier.base
+  #         - mkdocs.plugins.publisher.minifier.plugin
+  #         - mkdocs.plugins.publisher.social.plugin
+  #         - mkdocs.commands.build
+  - search
+  - tags
+  - pub-blog:
+      blog_dir: Blog
+  - obsidian-interactive-graph
+  - pub-obsidian:
+      comments:
+        inject_as_html: true
+  - obsidian-support
+  - pub-social:
+      site_name_in_title:
+        location: before
+      og:
+        enabled: true
+        locale: en_gb
+  - pub-meta:
+      # sort: 
+      #   enable: true
+      #   allow_section_renames: true
+      #   include_headless: true
+  - pub-minifier
+  - git-revision-date-localized:
+      # enable_creation_date: true
+      # type: timeago
+  - git-authors
+  # - mkdocs-nav-weight
