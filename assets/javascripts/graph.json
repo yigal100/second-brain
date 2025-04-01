@@ -2,60 +2,30 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Code Structure & Organisation",
-      "symbolSize": 0,
-      "value": "/second-brain/A%20Digital%20Garden/Fe-lang/code-structure--organisation/"
-    },
-    {
-      "id": "1",
-      "name": "Rust programming language",
-      "symbolSize": 0,
-      "value": "/second-brain/A%20Digital%20Garden/Rust/rustic/"
-    },
-    {
-      "id": "2",
       "name": "Digital Garden",
       "symbolSize": 0,
       "value": "/second-brain/A%20Digital%20Garden/"
     },
     {
-      "id": "3",
+      "id": "1",
       "name": "index",
       "symbolSize": 0,
       "value": "/second-brain/Blog/"
     },
     {
-      "id": "4",
+      "id": "2",
       "name": "2025",
       "symbolSize": 0,
       "value": "/second-brain/Blog/archive/2025/"
     },
     {
-      "id": "5",
-      "name": "Hello",
-      "symbolSize": 0,
-      "value": "/second-brain/Blog/categories/Hello/"
-    },
-    {
-      "id": "6",
-      "name": "World",
-      "symbolSize": 0,
-      "value": "/second-brain/Blog/categories/World/"
-    },
-    {
-      "id": "7",
-      "name": "This is my Blog",
+      "id": "3",
+      "name": "Bloggy",
       "symbolSize": 0,
       "value": "/second-brain/Blog/blog/"
     },
     {
-      "id": "8",
-      "name": "Generics vs. comptime",
-      "symbolSize": 0,
-      "value": "/second-brain/Blog/ffff/"
-    },
-    {
-      "id": "9",
+      "id": "4",
       "name": "About",
       "symbolSize": 0,
       "value": "/second-brain/about/"
