@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://yigal100.github.io/second-brain/</loc>
-         <lastmod>2025-03-29</lastmod>
+         <loc>https://yigal100.github.io/second-brain/about/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/A%20Digital%20Garden/</loc>
+         <lastmod>2025-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/A%20Digital%20Garden/Fe-lang/code-structure--organisation/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/A%20Digital%20Garden/Rust/rustic/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/ffff/</loc>
+         <lastmod>2025-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/blog/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/archive/2025/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/categories/Hello/</loc>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://yigal100.github.io/second-brain/Blog/categories/World/</loc>
+         <lastmod>2025-04-01</lastmod>
     </url>
 </urlset>
