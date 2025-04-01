@@ -2,33 +2,15 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Digital Garden",
+      "name": "About Me",
       "symbolSize": 0,
-      "value": "/second-brain/A%20Digital%20Garden/"
+      "value": "/second-brain/about/"
     },
     {
       "id": "1",
-      "name": "index",
+      "name": "Digital Garden",
       "symbolSize": 0,
-      "value": "/second-brain/Blog/"
-    },
-    {
-      "id": "2",
-      "name": "2025",
-      "symbolSize": 0,
-      "value": "/second-brain/Blog/archive/2025/"
-    },
-    {
-      "id": "3",
-      "name": "Bloggy",
-      "symbolSize": 0,
-      "value": "/second-brain/Blog/blog/"
-    },
-    {
-      "id": "4",
-      "name": "About",
-      "symbolSize": 0,
-      "value": "/second-brain/about/"
+      "value": "/second-brain/"
     }
   ],
   "links": []
