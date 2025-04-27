@@ -1,13 +1,14 @@
 ---
 title: Digital Garden
-subtitle: Knowledge Graph / Second Brain
-description: My "second brain". Contains my personal musings about life, work, and everything in between.
+subtitle: A.K.A. Second Brain
+description: A knowledge graph
 publish: true
-hidden: true
-slug: ./
+hidden: false
+slug: digital-garden
 date: 2025-04-01T23:00:00
 update: 2025-04-01T23:00:00
 ---
-# This is my Digital Garden inc.
-## Why
-this is it
+# Digital Garden
+A place to collate knowledge on various topics that interest me:
+
+<!-- material/tags -->
