@@ -7,10 +7,9 @@ categories:
 tags:
   - Rust
 publish: false
-slug: first_post
+slug: first_post_draft
 date: 2025-04-01T23:00:00
 update: 2025-04-01T23:00:00
 ---
-Niko has posted
 
 
