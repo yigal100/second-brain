@@ -5,6 +5,6 @@
   "showUnsupportedFiles": true,
   "uriCallbacks": false,
   "rightToLeft": false,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "alwaysUpdateLinks": true
 }
