@@ -6,7 +6,7 @@ publish: true
 draft: false
 slug: about
 date: 2025-04-01T23:00:00
-update: 2025-04-01T23:00:00
+update: 2025-04-27T23:00:00
 ---
 
 # About
@@ -14,6 +14,7 @@ update: 2025-04-01T23:00:00
 👋 Hello World! 
 
 A philosopher, a photographer, a techie engineer.
+
 This is my space for discussing anything from politices and religion to spaces vs. tabs. 
 
 Alignment - #Chaotic_Good
