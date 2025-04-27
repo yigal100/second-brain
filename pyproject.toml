@@ -5,10 +5,23 @@ description = "Second brain / knowledge graph"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    # "mkdocs-awesome-nav>=3.1.1",
+    "mkdocs-breadcrumbs-plugin>=0.1.14",
     "mkdocs-git-authors-plugin>=0.9.4",
     "mkdocs-git-revision-date-localized-plugin>=1.4.5",
     "mkdocs-glightbox>=0.4.0",
     "mkdocs-obsidian-interactive-graph-plugin>=0.3.0",
     "mkdocs-obsidian-support-plugin>=1.4.1",
     "mkdocs-publisher>=1.4.6",
+    # "mkdocs-obsidian-bridge>=1.2.0",
+    # "mkdocs-publisher @ git+https://github.com/yigal100/mkdocs-publisher@main"
+    # "mkdocs-publisher @ C:/devel/repos/mkdocs-publisher"
+    "mkdocs-rss-plugin>=1.17.1",
 ]
+
+# [build-system]
+# requires = ["hatchling >= 1.26"]
+# build-backend = "hatchling.build"
+
+# [tool.hatch.build.targets.wheel]
+# packages = ["src/"]
