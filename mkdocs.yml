@@ -100,8 +100,8 @@ theme:
     - navigation.top # Back to top
     - navigation.sections # Useful for an overview
     - navigation.indexes # Needed for an overview
-    - navigation.instant
-    - navigation.instant.progress
+    # - navigation.instant      # WARN: breaks some javascripts
+    # - navigation.instant.progress
     - navigation.expand
     - search.suggest
     - search.highlight
