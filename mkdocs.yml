@@ -65,6 +65,7 @@ theme:
     logo: simple/obsidian
   # logo: publisher_logo.png
   # favicon: publisher_icon.png
+  include_search_page: true
 
   palette:
     # Palette toggle for auto mode
@@ -172,13 +173,15 @@ plugins:
       comments:
         inject_as_html: true
   - obsidian-support
+  - pub-meta
+  - pub-blog:
+      blog_dir: Blog
   - pub-social:
       site_name_in_title:
         location: before
       og:
         enabled: true
         locale: en_gb
-  - pub-meta:
   - pub-minifier
   - git-revision-date-localized:
       # enable_creation_date: true
@@ -203,4 +206,3 @@ plugins:
   #         - mkdocs.plugins.publisher.social.plugin
   #         - mkdocs.plugins.obsidian-bridge
   #         - mkdocs.commands.build
-
