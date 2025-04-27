@@ -4,7 +4,7 @@ function draw_graph_sidebar(myChart, global=true) {
 }
 
 // draw graph in modal view
-function draw_graph_modal(myChart, global=false) {
+function draw_graph_modal(myChart, global=true) {
   draw_graph(myChart, global)
 }
 
@@ -94,7 +94,7 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
 
   option = {
     tooltip: {
-      show: true,
+      show: false,
     },
     legend: [ // categories not supported yet
       //{
