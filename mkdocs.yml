@@ -87,7 +87,7 @@ theme:
       scheme: slate
       toggle:
         icon: material/lightbulb-outline
-        name: Switch to light mode
+        name: Switch to auto mode
       primary: blue grey
       accent: blue grey
 
