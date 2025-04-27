@@ -55,8 +55,11 @@ validation:
 theme:
   name: material
   language: en
-  # font:
-  #   code: Lato
+  font:
+    text: Nothing You Could Do
+    #text: Caveat
+    # text: Playwrite AU SA
+    code: Source Code Pro
   custom_dir: overrides
   icon:
     logo: simple/obsidian
@@ -76,16 +79,16 @@ theme:
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
-      # primary: orange
-      # accent: orange
+      primary: blue grey
+      accent: blue grey
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-      # primary: orange
-      # accent: orange
+      primary: blue grey
+      accent: blue grey
 
   features:
     - navigation.tabs
@@ -98,6 +101,7 @@ theme:
     - navigation.indexes # Needed for an overview
     - navigation.instant
     - navigation.instant.progress
+    - navigation.expand
     - search.suggest
     - search.highlight
     - search.share
@@ -157,29 +161,32 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
-  # - pub-debugger:
-  #     console_log:
-  #       show_code_link: true
-  #       enabled: true
-  #       log_level: DEBUG
-  #       filter_logger_names:
-  #         - mkdocs.plugins
-  #         - mkdocs.structure.files
-  #         - mkdocs.structure.pages
-  #         - mkdocs.plugins.publisher.meta.plugin
-  #         - mkdocs.plugins.publisher.blog.creators
-  #         - mkdocs.plugins.publisher.blog.modifiers
-  #         - mkdocs.plugins.publisher.blog.parsers
-  #         - mkdocs.plugins.publisher.debug.plugin
-  #         - mkdocs.plugins.publisher.minifier.base
-  #         - mkdocs.plugins.publisher.minifier.plugin
-  #         - mkdocs.plugins.publisher.social.plugin
-  #         - mkdocs.commands.build
-  - search
-  - tags
-  - pub-blog:
-      blog_dir: Blog
   - obsidian-interactive-graph
+  - glightbox
+  - pub-debugger:
+      console_log:
+        show_code_link: true
+        enabled: true
+        # log_level: DEBUG
+        # filter_logger_names:
+          # - mkdocs.plugins
+          # - mkdocs.structure.files
+          # - mkdocs.structure.pages
+          # - mkdocs.plugins.publisher.meta.plugin
+          # - mkdocs.plugins.publisher.blog.creators
+          # - mkdocs.plugins.publisher.blog.modifiers
+          # - mkdocs.plugins.publisher.blog.parsers
+          # - mkdocs.plugins.publisher.debug.plugin
+          # - mkdocs.plugins.publisher.minifier.base
+          # - mkdocs.plugins.publisher.minifier.plugin
+          # - mkdocs.plugins.publisher.social.plugin
+          # - mkdocs.plugins.obsidian-bridge
+          # - mkdocs.commands.build
+  - search
+  - tags:
+      listings_map:
+        scoped:
+          scope: true
   - pub-obsidian:
       comments:
         inject_as_html: true
