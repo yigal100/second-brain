@@ -4,7 +4,7 @@ function draw_graph_sidebar(myChart, global=true) {
 }
 
 // draw graph in modal view
-function draw_graph_modal(myChart, global=true) {
+function draw_graph_modal(myChart, global=false) {
   draw_graph(myChart, global)
 }
 
@@ -94,7 +94,7 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
 
   option = {
     tooltip: {
-      show: false,
+      show: true,
     },
     legend: [ // categories not supported yet
       //{
@@ -150,6 +150,10 @@ $("#__palette_0").change(function(){
   myChart.setOption(option);
 });
 $("#__palette_1").change(function(){
+  option.backgroundColor = $("body").css("background-color");
+  myChart.setOption(option);
+});
+$("#__palette_2").change(function(){
   option.backgroundColor = $("body").css("background-color");
   myChart.setOption(option);
 });
