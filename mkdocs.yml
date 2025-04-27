@@ -31,16 +31,16 @@ extra_css:
 
 extra_javascript:
   # MathJax
-  - assets/javascript/mathjax.js
+  - assets/javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   # Icons hack
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
   # interactive graph
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascript/interactive_graph.js
+  - assets/javascripts/interactive_graph.js
   # tabs
-  - assets/javascript/obsidian_tags.js
+  - assets/javascripts/obsidian_tags.js
 
 watch:
   - overrides

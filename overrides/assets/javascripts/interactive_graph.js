@@ -1,5 +1,5 @@
 // draw graph in sidebar, change global to true if prefered
-function draw_graph_sidebar(myChart, global=true) {
+function draw_graph_sidebar(myChart, global=false) {
   draw_graph(myChart, global)
 }
 
