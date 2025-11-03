@@ -26,5 +26,6 @@
   "webpage-html-export",
   "obsidian-pandoc",
   "tabs",
-  "vertical-tabs"
+  "vertical-tabs",
+  "obsidian-local-rest-api"
 ]

@@ -3,7 +3,7 @@
   "vimMode": false,
   "trashOption": "none",
   "showUnsupportedFiles": true,
-  "uriCallbacks": false,
+  "uriCallbacks": true,
   "rightToLeft": false,
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true

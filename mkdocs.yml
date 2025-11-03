@@ -7,7 +7,7 @@ repo_name: yigal100/second-brain
 repo_url: https://github.com/yigal100/second-brain/
 # edit_uri: https://github.com/yigal100/second-brain/edit/master/docs/
 
-docs_dir: docs
+docs_dir: 'Second Brain'
 site_dir: site
 
 use_directory_urls: true
@@ -162,9 +162,12 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
+  # - awesome-nav
   - obsidian-interactive-graph
   - glightbox
   - search
+  # - meta
+  # - blog
   - tags:
       listings_map:
         scoped:
@@ -188,6 +191,13 @@ plugins:
       # enable_creation_date: true
       # type: timeago
   - git-authors
+  # - rss:
+  #     match_path: Blog/.* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
   # - pub-debugger:
   #     console_log:
   #       show_code_link: true
