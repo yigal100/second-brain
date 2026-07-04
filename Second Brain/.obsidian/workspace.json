@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "afeb86496fd6a38e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "79d6d2ca0374a539",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "log.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "log"
             }
           }
         ]
@@ -90,8 +104,7 @@
               "title": "Vertical tabs"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,9 +231,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "LICENSE.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for LICENSE"
             }
           }
         ],
@@ -228,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,8 +272,19 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "c04f70ee69ebc6b5",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "personal/about-iggy.md",
+    "index.md",
+    "LICENSE.md",
+    "README.md",
+    "log.md",
+    "professional/index.md",
+    "professional/languages/dbt-evaluation.md",
+    "professional/journal/craftsmanship-versus-stagnation.md",
+    "professional/architecture/three-musketeers-pattern.md",
+    "professional/architecture/software-craftsmanship.md",
+    "professional/architecture/breadth-vs-depth-experience.md",
     "Digital Garden/Phaser/Phaser Language.md",
     "Digital Garden/Phaser/Metaprogramming model-mindmap.md",
     "Digital Garden/Phaser/Metaprogramming model.md",
@@ -265,7 +292,6 @@
     "Digital Garden/Fe-lang/Meta-object protocol.md",
     "Me.md",
     "README.md.md",
-    "README.md",
     "Digital Garden/Phaser/New experiment with AI.md",
     "Digital Garden/Fe-lang/Value semantics & the borrow checker.md",
     "Digital Garden/Fe-lang/Code structure & organisation.md",
@@ -275,18 +301,8 @@
     "_templates/post.md",
     "Blog/2025-04-27.md",
     "Blog/Abrahamic religions.md",
-    "Digital Garden/README.md",
-    "Blog/README.md",
     "Blog",
-    "blogf/2025-04-27.md",
-    "blogf/Abrahamic religions.md",
     "blogf",
-    "Digital Garden/Rust/Dynamically Sized Types (DSTs).md",
-    "Digital Garden/Fe-lang/Meta programming, MetaObject protocol & multi stage compilation.md",
-    "Digital Garden/Fe-lang/Generics vs. Zig's comptime.md",
-    "Digital Garden/Fe-lang/Comparison with Rust.md",
-    "Digital Garden/Fe-lang/Drawing 2025-03-23 17.03.10.excalidraw.md",
-    "Digital Garden/Fe-lang/Reference types.md",
     "_templates",
     "Blog/posts",
     "site.nav.yml",

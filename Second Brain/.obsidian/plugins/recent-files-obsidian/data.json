@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "log",
+      "path": "log.md"
+    },
+    {
+      "basename": "about-iggy",
+      "path": "personal/about-iggy.md"
+    },
+    {
+      "basename": "LICENSE",
+      "path": "LICENSE.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "index",
+      "path": "professional/index.md"
+    },
+    {
+      "basename": "dbt-evaluation",
+      "path": "professional/languages/dbt-evaluation.md"
+    },
+    {
+      "basename": "craftsmanship-versus-stagnation",
+      "path": "professional/journal/craftsmanship-versus-stagnation.md"
+    },
+    {
+      "basename": "three-musketeers-pattern",
+      "path": "professional/architecture/three-musketeers-pattern.md"
+    },
+    {
+      "basename": "software-craftsmanship",
+      "path": "professional/architecture/software-craftsmanship.md"
+    },
+    {
+      "basename": "breadth-vs-depth-experience",
+      "path": "professional/architecture/breadth-vs-depth-experience.md"
+    },
+    {
       "basename": "Me",
       "path": "Me.md"
     },
