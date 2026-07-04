@@ -5,7 +5,7 @@ description: Helps you ingest raw sources, query concepts, and run lint checks o
 
 # OKF Operations (okf-ops)
 
-Use this skill when the user asks you to interact with, update, query, or run quality health checks (linting) on their Open Knowledge Format (OKF) Second Brain vault located in `Second Brain/`.
+Use this skill when the user asks you to interact with, update, query, or run quality health checks (linting) on their Open Knowledge Format (OKF) Second Brain vault located in `Second Brain/`. All communications must utilise Australian English, and all measurements must adhere to the metric system.
 
 ---
 
