@@ -316,7 +316,9 @@
   "verticalPosition": 0,
   "formatBrushes": {},
   "customCommands": [],
-  "viewTypeSettings": {},
+  "viewTypeSettings": {
+    "backlink": false
+  },
   "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
   "toolbarIconColor": "var(--text-normal)",
   "toolbarIconSize": 18

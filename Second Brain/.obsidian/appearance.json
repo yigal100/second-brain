@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "showRibbon": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSizeAction": true
 }

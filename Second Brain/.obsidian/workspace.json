@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "log.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "index"
             }
           }
         ]
@@ -90,8 +90,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -124,17 +124,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Garden/Fe-lang/Code structure & organisation.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Code structure & organisation"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -143,11 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -171,23 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital Garden/Fe-lang/Code structure & organisation.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Code structure & organisation"
-            }
-          },
-          {
-            "id": "1ccf0cf19b7dcaf5",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "title": "Outline of index"
             }
           },
           {
@@ -196,22 +187,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "fa94671d547a8611",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -220,7 +197,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Digital Garden/Crust/New experiment with AI.md"
+                "file": "index.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -232,14 +209,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "LICENSE.md"
+                "file": "index.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for LICENSE"
+              "title": "File properties for index"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -275,10 +252,11 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "personal/about-iggy.md",
+    "index-mindmap.md",
     "index.md",
+    "log.md",
     "LICENSE.md",
     "README.md",
-    "log.md",
     "professional/index.md",
     "professional/languages/dbt-evaluation.md",
     "professional/journal/craftsmanship-versus-stagnation.md",
@@ -300,7 +278,6 @@
     "Blog/2025-10-25.md",
     "_templates/post.md",
     "Blog/2025-04-27.md",
-    "Blog/Abrahamic religions.md",
     "Blog",
     "blogf",
     "_templates",
