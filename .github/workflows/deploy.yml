@@ -20,7 +20,7 @@ jobs:
     steps:
       # 1. Checkout your custom Quartz fork (v5 branch) into the current directory
       - name: Checkout Quartz Tooling
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: yigal100/quartz
           ref: v5
@@ -28,7 +28,7 @@ jobs:
 
       # 2. Checkout your actual vault/content into a temporary folder
       - name: Checkout Content Source
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           path: source-temp
           fetch-depth: 0 # Fetch all history for git info
