@@ -1,0 +1,48 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Me",
+      "path": "Me.md"
+    },
+    {
+      "basename": "2025-10-25",
+      "path": "Blog/2025-10-25.md"
+    },
+    {
+      "basename": "post",
+      "path": "_templates/post.md"
+    },
+    {
+      "basename": "2025-04-27",
+      "path": "Blog/2025-04-27.md"
+    },
+    {
+      "basename": "Abrahamic religions",
+      "path": "Blog/Abrahamic religions.md"
+    },
+    {
+      "basename": "README",
+      "path": "Digital Garden/README.md"
+    },
+    {
+      "basename": "Dynamically Sized Types (DSTs)",
+      "path": "Digital Garden/Rust/Dynamically Sized Types (DSTs).md"
+    },
+    {
+      "basename": "Subtyping and variance",
+      "path": "Digital Garden/Rust/Subtyping and variance.md"
+    },
+    {
+      "basename": "Generics as compile-time functions",
+      "path": "Digital Garden/Rust/Generics as compile-time functions.md"
+    },
+    {
+      "basename": "Effectful Rust",
+      "path": "Digital Garden/Rust/Effectful Rust.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

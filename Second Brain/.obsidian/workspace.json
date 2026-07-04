@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "1e46bc12920ed837",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "1972c24668137a7d",
+        "id": "afeb86496fd6a38e",
         "type": "tabs",
         "children": [
           {
-            "id": "8b0b82c72b863a01",
+            "id": "79d6d2ca0374a539",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "log.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "log"
+              "title": "New tab"
             }
           }
         ]
@@ -27,28 +23,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "519651523211dcd3",
+    "id": "ba2cd45032e3a3fd",
     "type": "split",
     "children": [
       {
-        "id": "de4ccf711377e85f",
+        "id": "26ae3b1302b66e27",
         "type": "tabs",
         "children": [
           {
-            "id": "ceb40e5ebecd336e",
+            "id": "97d3ac1e1aa73d42",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "b68c608a37c1c9de",
+            "id": "46522bfefb019301",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "5f44334a5cb3d456",
+            "id": "914fa0cb078ebc3f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,27 +69,49 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "daf6d2517fc21a30",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          },
+          {
+            "id": "c04f70ee69ebc6b5",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "354e16bfd13690ce",
+    "id": "b7f0c36c61b43359",
     "type": "split",
     "children": [
       {
-        "id": "dc0f53f64253080a",
+        "id": "f242ae910652434b",
         "type": "tabs",
         "children": [
           {
-            "id": "ff65d612e8b6e73c",
+            "id": "a9f0cb8b30ad84fc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Digital Garden/Fe-lang/Code structure & organisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +121,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Code structure & organisation"
             }
           },
           {
-            "id": "040cf015ab646407",
+            "id": "ce337fc5cb7e74f3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
             }
           },
           {
-            "id": "09aa22665d6ed2db",
+            "id": "c93a669fd7e403bf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +153,42 @@
             }
           },
           {
-            "id": "4c80f48e231cb963",
+            "id": "047263f49e3092d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Digital Garden/Fe-lang/Code structure & organisation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Code structure & organisation"
+            }
+          },
+          {
+            "id": "1ccf0cf19b7dcaf5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "4c707bd6ce1a9698",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "fa94671d547a8611",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,46 +202,100 @@
             }
           },
           {
-            "id": "15b9341e1ea9162b",
+            "id": "47bc258f4859507d",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "footnotes",
               "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Digital Garden/Crust/New experiment with AI.md"
               },
-              "icon": "lucide-list",
-              "title": "Outline"
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "05225eda686cfa77",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 416.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
+      "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "homepage:Open homepage": false,
+      "obsidian-projects:Open projects": false,
+      "webpage-html-export:Export as HTML": false,
+      "obsidian42-brat:BRAT": false,
+      "agent-client:Open agent client": false
     }
   },
-  "active": "8b0b82c72b863a01",
+  "active": "c04f70ee69ebc6b5",
   "lastOpenFiles": [
-    "index.md",
-    "log.md",
-    "professional/index.md",
-    "professional/languages/dbt-evaluation.md",
-    "professional/journal/craftsmanship-versus-stagnation.md",
-    "professional/architecture/three-musketeers-pattern.md",
-    "professional/architecture/software-craftsmanship.md",
-    "professional/architecture/breadth-vs-depth-experience.md"
+    "Digital Garden/Phaser/Phaser Language.md",
+    "Digital Garden/Phaser/Metaprogramming model-mindmap.md",
+    "Digital Garden/Phaser/Metaprogramming model.md",
+    "Digital Garden/Fe-lang/Trait coherence conceptually analogous to inheritance.md",
+    "Digital Garden/Fe-lang/Meta-object protocol.md",
+    "Me.md",
+    "README.md.md",
+    "README.md",
+    "Digital Garden/Phaser/New experiment with AI.md",
+    "Digital Garden/Fe-lang/Value semantics & the borrow checker.md",
+    "Digital Garden/Fe-lang/Code structure & organisation.md",
+    "Digital Garden/Phaser/Rationale.md",
+    "Digital Garden/Phaser",
+    "Blog/2025-10-25.md",
+    "_templates/post.md",
+    "Blog/2025-04-27.md",
+    "Blog/Abrahamic religions.md",
+    "Digital Garden/README.md",
+    "Blog/README.md",
+    "Blog",
+    "blogf/2025-04-27.md",
+    "blogf/Abrahamic religions.md",
+    "blogf",
+    "Digital Garden/Rust/Dynamically Sized Types (DSTs).md",
+    "Digital Garden/Fe-lang/Meta programming, MetaObject protocol & multi stage compilation.md",
+    "Digital Garden/Fe-lang/Generics vs. Zig's comptime.md",
+    "Digital Garden/Fe-lang/Comparison with Rust.md",
+    "Digital Garden/Fe-lang/Drawing 2025-03-23 17.03.10.excalidraw.md",
+    "Digital Garden/Fe-lang/Reference types.md",
+    "_templates",
+    "Blog/posts",
+    "site.nav.yml",
+    "A Digital Garden/Rust/Untitled.canvas",
+    "Digital Garden/Rust/Untitled.canvas",
+    "Digital Garden/Rust",
+    "Digital Garden/Fe-lang",
+    "Digital Garden",
+    "Drafts",
+    "Fe-lang/This is a cnavas.canvas"
   ]
 }

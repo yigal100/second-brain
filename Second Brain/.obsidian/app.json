@@ -1,1 +1,10 @@
-{}
+{
+  "showLineNumber": true,
+  "vimMode": false,
+  "trashOption": "none",
+  "showUnsupportedFiles": true,
+  "uriCallbacks": true,
+  "rightToLeft": false,
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true
+}
