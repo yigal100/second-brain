@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "log"
             }
           }
         ]
@@ -182,9 +182,11 @@
   },
   "active": "8b0b82c72b863a01",
   "lastOpenFiles": [
+    "index.md",
     "log.md",
     "professional/index.md",
     "professional/languages/dbt-evaluation.md",
+    "professional/journal/craftsmanship-versus-stagnation.md",
     "professional/architecture/three-musketeers-pattern.md",
     "professional/architecture/software-craftsmanship.md",
     "professional/architecture/breadth-vs-depth-experience.md"
