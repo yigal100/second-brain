@@ -1,8 +1,13 @@
 ---
 type: Architectural Pattern
-title: Engineering Experience: Breadth vs Depth
+title: "Engineering Experience: Breadth vs Depth"
 description: Evaluating technical authority based on vertical single-company longevity versus horizontal multi-project sample sizes.
-tags: [career-development, management, metrics, leadership, team-dynamics]
+tags:
+  - career-development
+  - management
+  - metrics
+  - leadership
+  - team-dynamics
 timestamp: 2026-07-04T13:00:00Z
 ---
 
