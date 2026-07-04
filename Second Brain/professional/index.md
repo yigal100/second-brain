@@ -13,3 +13,7 @@ A collection of concepts, reference sheets, architectures, and guidelines relate
 ## 🛠️ Languages and Frameworks
 
 *   [[professional/languages/dbt-evaluation|DBT (Data Build Tool) Evaluation]] - Assessing the trade-offs, marketing pitch, and implementation realities of DBT in data engineering.
+
+## 📝 Professional Journal & Blog
+
+*   [[professional/journal/craftsmanship-versus-stagnation|Software Craftsmanship vs. Technical Stagnation: Rethinking the KPIs of Engineering Experience]] - A reflective article exploring the history of engineering metaphors, the dichotomy of experience, and the trap of absolute consistency.

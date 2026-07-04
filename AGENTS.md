@@ -61,6 +61,7 @@ To prevent taxonomy drift, stick strictly to these types:
     *   `Architectural Pattern`
     *   `Cheat Sheet`
     *   `Career Goal`
+    *   `Professional Journal`
 *   **`projects/` Namespace:**
     *   `Project Overview`
     *   `Playbook/Runbook`

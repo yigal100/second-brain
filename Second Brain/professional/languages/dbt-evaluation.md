@@ -8,7 +8,7 @@ timestamp: 2026-07-04T13:00:00Z
 
 # DBT (Data Build Tool) Evaluation
 
-DBT (Data Build Tool) is a popular SQL-based transformation framework in the data space. Evaluating its adoption requires analyzing the delta between its marketing sales pitch and the realities of day-to-day software engineering.
+DBT (Data Build Tool) is a popular SQL-based transformation framework in the data space. Evaluating its adoption requires analysing the delta between its marketing sales pitch and the realities of day-to-day software engineering.
 
 ## The Sales Pitch vs. Reality
 
