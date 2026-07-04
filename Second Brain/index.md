@@ -9,6 +9,7 @@ Welcome to your Open Knowledge Format (OKF) compliant Second Brain. This is a pe
 ### 🌿 [Personal](/personal)
 Your personal life, journals, habit tracking, and personal goals.
 *   *Directories*: `/personal/journal`, `/personal/habits`, `/personal/goals`
+*   [[personal/about-iggy|About Iggy]]
 
 ### 🛠️ [Professional](/professional)
 Software engineering reference material, career goals, patterns, and cheat sheets.
