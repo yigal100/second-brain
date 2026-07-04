@@ -266,10 +266,6 @@ plugins:
       position: afterBody
       priority: 50
       display: all
-  - source: github:quartz-community/tui
-    enabled: true
-    options: {}
-    order: 50
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
