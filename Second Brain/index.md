@@ -1,3 +1,8 @@
+---
+title: Iggy's Second Brain
+description: An Open Knowledge Format (OKF) compliant vault for tracking professional engineering knowledge and personal growth.
+---
+
 # Second Brain Index
 
 Welcome to your Open Knowledge Format (OKF) compliant Second Brain. This is a persistent, interlinked knowledge system managed by you and your AI agent.
