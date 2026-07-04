@@ -138,6 +138,11 @@ plugins:
       passwordField: password
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
+    order: 900
+    layout:
+      position: body
+      priority: 100
+      display: all
   - source: github:quartz-community/stacked-pages
     enabled: false
     layout:
@@ -230,7 +235,18 @@ plugins:
     enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: TODO:username/repo-name
+        repoId: TODO:your-repo-id
+        category: Announcements
+        categoryId: TODO:your-category-id
+        mapping: url
+        strict: true
+        reactionsEnabled: true
+        inputPosition: bottom
+        lightTheme: light
+        darkTheme: dark
+        lang: en
     layout:
       position: afterBody
       priority: 10
@@ -241,6 +257,14 @@ plugins:
         GitHub: https://github.com/yigal100/second-brain
   - source: github:quartz-community/recent-notes
     enabled: true
+    options:
+      title: Recent Notes
+      limit: 3
+      linkToMore: false
+      showTags: true
+    layout:
+      position: left
+      priority: 25
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -276,7 +300,11 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: cyber-glow
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
+    order: 50
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
