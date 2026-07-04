@@ -11,10 +11,14 @@
             "id": "8b0b82c72b863a01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -173,12 +177,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false
     }
   },
   "active": "8b0b82c72b863a01",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "log.md",
+    "professional/index.md",
+    "professional/languages/dbt-evaluation.md",
+    "professional/architecture/three-musketeers-pattern.md",
+    "professional/architecture/software-craftsmanship.md",
+    "professional/architecture/breadth-vs-depth-experience.md"
+  ]
 }
