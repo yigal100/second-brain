@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Photon docs
+  pageTitle: "Second Brain"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://yigal100.github.io/photon/
+  baseUrl: https://yigal100.github.io/second-brain/
   ignorePatterns:
     - private
     - templates
@@ -58,6 +58,7 @@ plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
+      defaultDateType: modified
       priority:
         - frontmatter
         - git
@@ -83,6 +84,9 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
+    layout:
+      position: right
+      priority: 30
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -108,10 +112,12 @@ plugins:
   - source: github:quartz-community/roam
     enabled: false
     order: 92
+  - source: github:quartz-community/fonts
+    enabled: true
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
-    enabled: false
+    enabled: true
   - source: github:quartz-community/alias-redirects
     enabled: true
   - source: github:quartz-community/content-index
@@ -126,8 +132,6 @@ plugins:
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
-    enabled: true
-  - source: github:quartz-community/bases-page
     enabled: true
   - source: github:quartz-community/content-page
     enabled: true
@@ -157,7 +161,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 30
+      priority: 50
   - source: github:quartz-community/article-title
     enabled: true
     layout:
@@ -200,13 +204,7 @@ plugins:
     enabled: true
     options:
       provider: giscus
-      options:
-        repo: "yigal100/photon"
-        repoId: "R_kgDOQOwX7w"
-        category: "Announcements"
-        categoryId: "DIC_kwDOQOwX784CxacN"
-        lang: "en"
-        inputPosition: "top"
+      options: {}
     layout:
       position: afterBody
       priority: 10
@@ -214,9 +212,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/yigal100/photon
+        GitHub: https://github.com/yigal100/second-brain
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -246,6 +244,39 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/unlisted-pages
+    enabled: true
+    options: {}
+    order: 45
+  - source: github:quartz-community/encrypted-pages
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 900
+    layout:
+      position: body
+      priority: 100
+      display: all
+  - source: github:quartz-community/stacked-pages
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 50
+      display: all
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
+    order: 50
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
 layout:
   groups:
     toolbar:
