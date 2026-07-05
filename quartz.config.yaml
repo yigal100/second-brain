@@ -291,7 +291,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: ebullientworks
+      theme: kanagawa
       mode: both
   - source: github:quartz-community/tui
     enabled: false
