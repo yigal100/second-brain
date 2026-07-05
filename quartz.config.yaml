@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://yigal100.github.io/second-brain
+  baseUrl: https://yigal100.github.io/second-brain/
   ignorePatterns:
     - private
     - templates
@@ -112,7 +112,7 @@ plugins:
     enabled: true
     options:
       useThemeFonts: true
-      fontOrigin: googleFonts
+      fontOrigin: selfHosted
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
