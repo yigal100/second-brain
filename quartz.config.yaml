@@ -113,6 +113,7 @@ plugins:
     options:
       useThemeFonts: true
       fontOrigin: selfHosted
+    order: 60
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -291,10 +292,11 @@ plugins:
     enabled: true
     options:
       theme: ebullientworks
+      mode: both
   - source: github:quartz-community/tui
     enabled: false
     options: {}
-    order: 50
+    order: 10
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
