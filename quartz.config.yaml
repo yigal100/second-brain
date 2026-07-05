@@ -3,11 +3,11 @@ configuration:
   pageTitle: "Second Brain"
   pageTitleSuffix: ""
   enableSPA: true
-  enablePopovers: true
+  enablePopovers: false
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: yigal100.github.io/second-brain
+  baseUrl: https://yigal100.github.io/second-brain
   ignorePatterns:
     - private
     - templates
@@ -222,7 +222,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: true
+    enabled: false
     options:
       provider: giscus
       options:
@@ -292,7 +292,7 @@ plugins:
     options:
       theme: ebullientworks
   - source: github:quartz-community/tui
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: github:quartz-community/obsidian-plugin-excalidraw
