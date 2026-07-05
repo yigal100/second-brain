@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://yigal100.github.io/second-brain/
+  baseUrl: yigal100.github.io/second-brain/
   ignorePatterns:
     - private
     - templates
