@@ -5,6 +5,9 @@ on:
     branches:
       - okf
 
+env:
+  THEME_NAME: kanagawa
+
 permissions:
   contents: read
   pages: write
@@ -65,6 +68,9 @@ jobs:
 
       - name: Install Quartz plugins
         run: npx quartz plugin install
+
+      - name: Fetch Quartz Theme
+        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh | bash -s -- $THEME_NAME
 
       # 4. Build directly targeting your content folder
       - name: Build Quartz
