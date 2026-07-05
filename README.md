@@ -2,6 +2,8 @@
 
 A persistent, interlinked knowledge system managed as an Open Knowledge Format (OKF) compliant vault. This repository acts as a personal second brain, housing reflections, professional engineering references, project logs, and development playbooks.
 
+[![Deploy Quartz site to GitHub Pages](https://github.com/yigal100/second-brain/actions/workflows/deploy.yml/badge.svg)](https://github.com/yigal100/second-brain/actions/workflows/deploy.yml)
+
 ## Structure
 
 The vault is organized into clear namespaces:
