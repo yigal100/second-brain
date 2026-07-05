@@ -243,12 +243,12 @@ plugins:
       links:
         GitHub: https://github.com/yigal100/second-brain
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
     options:
       title: Recent Notes
       limit: 3
       linkToMore: false
-      showTags: true
+      showTags: false
     layout:
       position: left
       priority: 25
@@ -287,7 +287,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: cyber-glow
+      theme: ebullientworks
   - source: github:quartz-community/tui
     enabled: true
     options: {}
