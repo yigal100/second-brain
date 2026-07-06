@@ -17,3 +17,9 @@ A collection of concepts, reference sheets, architectures, and guidelines relate
 ## 📝 Professional Journal & Blog
 
 *   [[professional/journal/craftsmanship-versus-stagnation|Software Craftsmanship vs. Technical Stagnation: Rethinking the KPIs of Engineering Experience]] - A reflective article exploring the history of engineering metaphors, the dichotomy of experience, and the trap of absolute consistency.
+
+## 🧠 Guidelines & Mental Models
+
+*   [[professional/guidelines/survivorship-bias|Survivorship Bias]] - Understanding statistical selection errors to improve decision making and analysis.
+*   [[professional/guidelines/confirmation-bias|Confirmation Bias]] - The tendency to favour information that supports prior beliefs.
+*   [[professional/guidelines/selection-bias|Selection Bias]] - Systematic errors in data selection that lead to non-representative samples.
